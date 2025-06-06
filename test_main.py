@@ -14,7 +14,7 @@ async def send_both(message: types.Message):
         await message.answer_voice(voice_file)
 
     # Отправка аудиофайла (.mp3)
-    with open('audio.mp3', 'rb') as audio_file:
+    with open('voice.mp3', 'rb') as audio_file:
         await message.answer_audio(audio_file)
 
 if __name__ == '__main__':
