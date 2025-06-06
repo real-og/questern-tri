@@ -1,5 +1,6 @@
 from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
+import os
 
 API_TOKEN = str(os.environ.get('BOT_TOKEN')) # вставь свой токен
 
